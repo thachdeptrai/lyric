@@ -25,8 +25,8 @@ def decrypt_rc4_file(input_file, output_file, key):
         print(f"Đã xảy ra lỗi: {e}")
 
 # Đường dẫn file input, file output, và khóa giải mã
-input_file = "input/HoanHao.lrc"    # Thay bằng đường dẫn file input
-output_file = "py/lrc/HoanHao.lrc"  # Thay bằng đường dẫn file output
+input_file = "input/exitsign.lrc"    # Thay bằng đường dẫn file input
+output_file = "py/lrc/exitsign.lrc"  # Thay bằng đường dẫn file output
 key = "Lyr1cjust4nct"       # Khóa giải mã
 
 # Gọi hàm để giải mã
